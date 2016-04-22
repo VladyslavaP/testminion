@@ -892,7 +892,7 @@ p, ul, ol, dl, table {
 /* Form */
 form label {
   display: block;
-  color: #252122;
+  color: #fff;
   font-weight: 400;
   margin: 0 0 0.5em 0; }
 form input[type=text],
@@ -1559,7 +1559,7 @@ ol.default {
         font-size: 1.25em; }
 
   /* Header */
-  #header>a {
+  #header h1 {
     margin: 0.25em 0 1em 0; }
 
   /* Banner */

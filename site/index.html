@@ -17,7 +17,7 @@
     <div id="page-wrapper">
       <header id="header-wrapper" role="banner">
         <div id="header">
-          <a href="#" title="Home page" tabindex="0">Minions</a>
+          <h1><a href="#" title="Home page" tabindex="0">Minions</a></h1>
           <nav id="nav" role="navigation" tabindex="1">
             <ul>
               <li class="current" role="menuitem">
@@ -80,7 +80,7 @@
           </section>
         </div>
       </header>
-      <main id="maincontent" role="main" tabindex="1">
+      <main id="maincontent" role="main" tabindex="4">
         <div class="container">
           <div class="row">
             <div class="12u">
@@ -263,9 +263,11 @@
                 </a>
                 <footer>
                   <form role="form" action="#" tabindex="9">
-                    <input type="text" placeholder="Name" tabindex="10" aria-required="true" required/>
-                    <input type="text" placeholder="Email" tabindex="10" aria-required="true" required/>
-                    <button class="button" role="button" title="subscribe" tabindex="4">Subscribe</button>
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Name" tabindex="10" aria-required="true" required/>
+                    <label for="name">Email</label>
+                    <input id="email" type="text" placeholder="Email" tabindex="10" aria-required="true" required/>
+                    <button class="button" role="button" title="subscribe" tabindex="10">Subscribe</button>
                   </form>
                 </footer>
               </section>

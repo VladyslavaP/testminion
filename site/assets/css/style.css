@@ -1,1 +1,8 @@
 /* Add new styles here */
+*:focus{
+  box-shadow: inset 0px 0px 1px 1px #43bff0;
+}
+
+label {
+  color: #fff;
+}
