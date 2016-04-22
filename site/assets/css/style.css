@@ -7,6 +7,9 @@ label {
   color: #fff;
 }
 
-ul.dates p, #footer-wrapper a {
+ul.dates p,
+#footer-wrapper a,
+ul.contact li p,
+#copyright li {
   color: #ddd;
 }
