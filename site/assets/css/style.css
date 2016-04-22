@@ -7,6 +7,6 @@ label {
   color: #fff;
 }
 
-#footer-wrapper a {
+ul.dates p, #footer-wrapper a {
   color: #ddd;
 }
